@@ -23,4 +23,5 @@ describe("berlinClock should", () => {
 		expect(berlinClock("20:00:00").slice(2, 6)).toBe("RRRR");
 		expect(berlinClock("24:00:00").slice(2, 6)).toBe("RRRR");
 	});
+	it("");
 });
